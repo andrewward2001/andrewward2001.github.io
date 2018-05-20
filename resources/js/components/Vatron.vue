@@ -38,24 +38,25 @@
       <p class="text-muted">Vatron can also be built for Linux</p>
     </b-jumbotron>
     <a id="download"></a>
-    <b-jumbotron header="Download Vatron 0.3.1" fluid>
+    <b-jumbotron header="Download Vatron 0.3.2" fluid>
       <p class="text-muted">Vatron is only compatible with 64-bit systems.</p>
       <b-row>
         <b-col>
           <b-card title="Windows" sub-title="The Squirrel Installer is required for automatic updates.">
-            <a href="https://github.com/vatron/vatron/releases/download/v0.3.1/vatron-Setup-0.3.1.exe" target="_blank" class="card-link">Squirrel Installer (~76 MB)</a><br />
-            <a href="https://github.com/vatron/vatron/releases/download/v0.3.1/vatron-web-setup-0.3.1.exe" target="_blank" class="card-link">Web Installer (~951+ KB)</a>
-            <a href="https://github.com/vatron/vatron/releases/download/v0.3.1/VatronPortable.0.3.1.exe" target="_blank" class="card-link">Portable .exe (~36 MB)</a>
+            <a href="https://github.com/vatron/vatron/releases/download/v0.3.2/vatron-Setup-0.3.2.exe" target="_blank" class="card-link">Squirrel Installer (~76 MB)</a><br />
+            <a href="https://github.com/vatron/vatron/releases/download/v0.3.2/vatron-web-setup-0.3.2.exe" target="_blank" class="card-link">Web Installer (~951+ KB)</a>
+            <a href="https://github.com/vatron/vatron/releases/download/v0.3.2/VatronPortable.0.3.2.exe" target="_blank" class="card-link">Portable .exe (~36 MB)</a>
           </b-card>
         </b-col>
         <b-col>
           <b-card title="macOS">
-            <a href="https://github.com/vatron/vatron/releases/download/v0.3.1/Vatron.0.3.1.dmg" target="_blank" class="card-link">DMG (~52 MB)</a>
+            <a href="https://github.com/vatron/vatron/releases/download/v0.3.2/Vatron.0.3.2.dmg" target="_blank" class="card-link">DMG (~52 MB)</a>
           </b-card>
         </b-col>
       </b-row>
       <p><a href="https://github.com/vatron/vatron/compare/0.2.0...v0.3.0">view the 0.3.0 changelog</a></p>
       <p><a href="https://github.com/vatron/vatron/compare/v0.3.0...v0.3.1">view the 0.3.1 changelog</a></p>
+      <p><a href="https://github.com/vatron/vatron/compare/v0.3.1...v0.3.2">view the 0.3.2 changelog</a></p>
       <p><a href="https://github.com/andrewward2001/vatron/releases/tag/v0.3.1">view the tag</a></p>
       <h1 class="display-5" style="margin-top: 2rem">Vatron Development Releases</h1>
       <b-alert show variant="danger">

@@ -6907,7 +6907,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\resources\\js\\components\\App.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\resources\\js\\components\\App.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] App.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -6918,9 +6918,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-7806d34b", Component.options)
+    hotAPI.createRecord("data-v-a040c3dc", Component.options)
   } else {
-    hotAPI.reload("data-v-7806d34b", Component.options)
+    hotAPI.reload("data-v-a040c3dc", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -6951,7 +6951,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\resources\\js\\components\\Home.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\resources\\js\\components\\Home.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Home.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -6962,9 +6962,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-28dd6325", Component.options)
+    hotAPI.createRecord("data-v-27c41d84", Component.options)
   } else {
-    hotAPI.reload("data-v-28dd6325", Component.options)
+    hotAPI.reload("data-v-27c41d84", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -6991,7 +6991,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\resources\\js\\components\\Vatron.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\resources\\js\\components\\Vatron.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Vatron.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -7002,9 +7002,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-c6ea5764", Component.options)
+    hotAPI.createRecord("data-v-dc3f7fb2", Component.options)
   } else {
-    hotAPI.reload("data-v-c6ea5764", Component.options)
+    hotAPI.reload("data-v-dc3f7fb2", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -28960,7 +28960,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "\n/*\n  This CSS can be removed once Bootstrap V4.beta.3 is released\n  https://github.com/twbs/bootstrap/pull/24510\n  Once BSV4.beta.3 is released, the script section can be moved into the modal.js file\n  V4.beta.3 will be changing modal margin to rem units\n*/\n.modal-dialog-centered {\n    display: flex;\n    align-items: center;\n    /* min-height: calc(100% - (1rem * 2)); */\n    min-height: calc(100% - (10px * 2));\n}\n.modal-dialog-centered .modal-content {\n    width: 100%;\n}\n@media (min-width: 576px) {\n.modal-dialog-centered {\n        /* min-height: calc(100% - (1.75rem * 2)); */\n        min-height: calc(100% - (30px * 2));\n}\n}\n", ""]);
+exports.push([module.i, "\n/* Special styling for type=range and type=color input */\ninput.form-control[type=\"range\"],\ninput.form-control[type=\"color\"] {\n    height: 2.25rem;\n}\ninput.form-control.form-control-sm[type=\"range\"],\ninput.form-control.form-control-sm[type=\"color\"] {\n    height: 1.9375rem;\n}\ninput.form-control.form-control-lg[type=\"range\"],\ninput.form-control.form-control-lg[type=\"color\"] {\n    height: 3rem;\n}\n/* Less padding on type=color */\ninput.form-control[type=\"color\"] {\n    padding: 0.25rem 0.25rem;\n}\ninput.form-control.form-control-sm[type=\"color\"] {\n    padding: 0.125rem 0.125rem;\n}\n", ""]);
 
 // exports
 
@@ -28988,7 +28988,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "\n/* Special styling for type=range and type=color input */\ninput.form-control[type=\"range\"],\ninput.form-control[type=\"color\"] {\n    height: 2.25rem;\n}\ninput.form-control.form-control-sm[type=\"range\"],\ninput.form-control.form-control-sm[type=\"color\"] {\n    height: 1.9375rem;\n}\ninput.form-control.form-control-lg[type=\"range\"],\ninput.form-control.form-control-lg[type=\"color\"] {\n    height: 3rem;\n}\n/* Less padding on type=color */\ninput.form-control[type=\"color\"] {\n    padding: 0.25rem 0.25rem;\n}\ninput.form-control.form-control-sm[type=\"color\"] {\n    padding: 0.125rem 0.125rem;\n}\n", ""]);
+exports.push([module.i, "\n/* Add support for fixed layout table */\ntable.b-table.b-table-fixed {\n    table-layout: fixed;\n}\n\n/* Busy table styling */\ntable.b-table[aria-busy=\"false\"] {\n    opacity: 1;\n}\ntable.b-table[aria-busy=\"true\"] {\n    opacity: .6;\n}\n\n/* Sort styling */\ntable.b-table>thead>tr>th,\ntable.b-table>tfoot>tr>th {\n    position: relative;\n}\ntable.b-table>thead>tr>th.sorting,\ntable.b-table>tfoot>tr>th.sorting {\n    padding-right: 1.5em;\n    cursor: pointer;\n}\ntable.b-table>thead>tr>th.sorting::before,\ntable.b-table>thead>tr>th.sorting::after,\ntable.b-table>tfoot>tr>th.sorting::before,\ntable.b-table>tfoot>tr>th.sorting::after {\n    position: absolute;\n    bottom: 0;\n    display: block;\n    opacity: 0.4;\n    padding-bottom: inherit;\n    font-size: inherit;\n    line-height: 180%\n}\ntable.b-table>thead>tr>th.sorting::before,\ntable.b-table>tfoot>tr>th.sorting::before {\n    right: 0.75em;\n    content: \"\\2191\";\n}\ntable.b-table>thead>tr>th.sorting::after,\ntable.b-table>tfoot>tr>th.sorting::after {\n    right: 0.25em;\n    content: \"\\2193\";\n}\ntable.b-table>thead>tr>th.sorting_asc::after,\ntable.b-table>thead>tr>th.sorting_desc::before,\ntable.b-table>tfoot>tr>th.sorting_asc::after,\ntable.b-table>tfoot>tr>th.sorting_desc::before {\n    opacity: 1;\n}\n\n/* stacked table layout */\n/* Derived from http://blog.adrianroselli.com/2017/11/a-responsive-accessible-table.html */\n/* Always stacked */\ntable.b-table.b-table-stacked {\n    width: 100%;\n}\ntable.b-table.b-table-stacked,\ntable.b-table.b-table-stacked>tbody,\ntable.b-table.b-table-stacked>tbody>tr,\ntable.b-table.b-table-stacked>tbody>tr>td,\ntable.b-table.b-table-stacked>tbody>tr>th,\ntable.b-table.b-table-stacked>caption {\n    display: block;\n}\n/* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked>thead,\ntable.b-table.b-table-stacked>tfoot,\ntable.b-table.b-table-stacked>tbody>tr.b-table-top-row,\ntable.b-table.b-table-stacked>tbody>tr.b-table-bottom-row {\n    display: none;\n}\n/* inter-row top border */\ntable.b-table.b-table-stacked>tbody>tr>:first-child {\n    border-top-width: .4rem;\n}\n/* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked>tbody>tr>[data-label] {\n    display: grid;\n    grid-template-columns: 40% auto;\n    grid-gap: .25rem 1rem;\n}\n/* generate row cell \"heading\" */\ntable.b-table.b-table-stacked>tbody>tr>[data-label]::before {\n    content: attr(data-label);\n    display: inline;\n    text-align: right;\n    overflow-wrap: break-word;\n    font-weight: bold;\n    font-style: normal;\n}\n@media all and (max-width: 575.99px) {\n    /* Under SM */\ntable.b-table.b-table-stacked-sm {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-sm,\n    table.b-table.b-table-stacked-sm>tbody,\n    table.b-table.b-table-stacked-sm>tbody>tr,\n    table.b-table.b-table-stacked-sm>tbody>tr>td,\n    table.b-table.b-table-stacked-sm>tbody>tr>th,\n    table.b-table.b-table-stacked-sm>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-sm>thead,\n    table.b-table.b-table-stacked-sm>tfoot,\n    table.b-table.b-table-stacked-sm>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-sm>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-sm>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-sm>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-sm>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n@media all and (max-width: 767.99px) {\n    /* under MD  */\ntable.b-table.b-table-stacked-md {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-md,\n    table.b-table.b-table-stacked-md>tbody,\n    table.b-table.b-table-stacked-md>tbody>tr,\n    table.b-table.b-table-stacked-md>tbody>tr>td,\n    table.b-table.b-table-stacked-md>tbody>tr>th,\n    table.b-table.b-table-stacked-md>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-md>thead,\n    table.b-table.b-table-stacked-md>tfoot,\n    table.b-table.b-table-stacked-md>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-md>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-md>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-md>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-md>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n@media all and (max-width: 991.99px) {\n    /* under LG  */\ntable.b-table.b-table-stacked-lg {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-lg,\n    table.b-table.b-table-stacked-lg>tbody,\n    table.b-table.b-table-stacked-lg>tbody>tr,\n    table.b-table.b-table-stacked-lg>tbody>tr>td,\n    table.b-table.b-table-stacked-lg>tbody>tr>th,\n    table.b-table.b-table-stacked-lg>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-lg>thead,\n    table.b-table.b-table-stacked-lg>tfoot,\n    table.b-table.b-table-stacked-lg>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-lg>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-lg>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-lg>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-lg>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n@media all and (max-width: 1199.99px) {\n    /* under XL  */\ntable.b-table.b-table-stacked-xl {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-xl,\n    table.b-table.b-table-stacked-xl>tbody,\n    table.b-table.b-table-stacked-xl>tbody>tr,\n    table.b-table.b-table-stacked-xl>tbody>tr>td,\n    table.b-table.b-table-stacked-xl>tbody>tr>th,\n    table.b-table.b-table-stacked-xl>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-xl>thead,\n    table.b-table.b-table-stacked-xl>tfoot,\n    table.b-table.b-table-stacked-xl>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-xl>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-xl>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-xl>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-xl>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n\n/* Details row styling */\ntable.b-table>tbody>tr.b-table-details>td {\n    border-top: none;\n}\n", ""]);
 
 // exports
 
@@ -29002,7 +29002,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "\n/* Add support for fixed layout table */\ntable.b-table.b-table-fixed {\n    table-layout: fixed;\n}\n\n/* Busy table styling */\ntable.b-table[aria-busy=\"false\"] {\n    opacity: 1;\n}\ntable.b-table[aria-busy=\"true\"] {\n    opacity: .6;\n}\n\n/* Sort styling */\ntable.b-table>thead>tr>th,\ntable.b-table>tfoot>tr>th {\n    position: relative;\n}\ntable.b-table>thead>tr>th.sorting,\ntable.b-table>tfoot>tr>th.sorting {\n    padding-right: 1.5em;\n    cursor: pointer;\n}\ntable.b-table>thead>tr>th.sorting::before,\ntable.b-table>thead>tr>th.sorting::after,\ntable.b-table>tfoot>tr>th.sorting::before,\ntable.b-table>tfoot>tr>th.sorting::after {\n    position: absolute;\n    bottom: 0;\n    display: block;\n    opacity: 0.4;\n    padding-bottom: inherit;\n    font-size: inherit;\n    line-height: 180%\n}\ntable.b-table>thead>tr>th.sorting::before,\ntable.b-table>tfoot>tr>th.sorting::before {\n    right: 0.75em;\n    content: \"\\2191\";\n}\ntable.b-table>thead>tr>th.sorting::after,\ntable.b-table>tfoot>tr>th.sorting::after {\n    right: 0.25em;\n    content: \"\\2193\";\n}\ntable.b-table>thead>tr>th.sorting_asc::after,\ntable.b-table>thead>tr>th.sorting_desc::before,\ntable.b-table>tfoot>tr>th.sorting_asc::after,\ntable.b-table>tfoot>tr>th.sorting_desc::before {\n    opacity: 1;\n}\n\n/* stacked table layout */\n/* Derived from http://blog.adrianroselli.com/2017/11/a-responsive-accessible-table.html */\n/* Always stacked */\ntable.b-table.b-table-stacked {\n    width: 100%;\n}\ntable.b-table.b-table-stacked,\ntable.b-table.b-table-stacked>tbody,\ntable.b-table.b-table-stacked>tbody>tr,\ntable.b-table.b-table-stacked>tbody>tr>td,\ntable.b-table.b-table-stacked>tbody>tr>th,\ntable.b-table.b-table-stacked>caption {\n    display: block;\n}\n/* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked>thead,\ntable.b-table.b-table-stacked>tfoot,\ntable.b-table.b-table-stacked>tbody>tr.b-table-top-row,\ntable.b-table.b-table-stacked>tbody>tr.b-table-bottom-row {\n    display: none;\n}\n/* inter-row top border */\ntable.b-table.b-table-stacked>tbody>tr>:first-child {\n    border-top-width: .4rem;\n}\n/* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked>tbody>tr>[data-label] {\n    display: grid;\n    grid-template-columns: 40% auto;\n    grid-gap: .25rem 1rem;\n}\n/* generate row cell \"heading\" */\ntable.b-table.b-table-stacked>tbody>tr>[data-label]::before {\n    content: attr(data-label);\n    display: inline;\n    text-align: right;\n    overflow-wrap: break-word;\n    font-weight: bold;\n    font-style: normal;\n}\n@media all and (max-width: 575.99px) {\n    /* Under SM */\ntable.b-table.b-table-stacked-sm {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-sm,\n    table.b-table.b-table-stacked-sm>tbody,\n    table.b-table.b-table-stacked-sm>tbody>tr,\n    table.b-table.b-table-stacked-sm>tbody>tr>td,\n    table.b-table.b-table-stacked-sm>tbody>tr>th,\n    table.b-table.b-table-stacked-sm>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-sm>thead,\n    table.b-table.b-table-stacked-sm>tfoot,\n    table.b-table.b-table-stacked-sm>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-sm>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-sm>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-sm>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-sm>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n@media all and (max-width: 767.99px) {\n    /* under MD  */\ntable.b-table.b-table-stacked-md {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-md,\n    table.b-table.b-table-stacked-md>tbody,\n    table.b-table.b-table-stacked-md>tbody>tr,\n    table.b-table.b-table-stacked-md>tbody>tr>td,\n    table.b-table.b-table-stacked-md>tbody>tr>th,\n    table.b-table.b-table-stacked-md>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-md>thead,\n    table.b-table.b-table-stacked-md>tfoot,\n    table.b-table.b-table-stacked-md>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-md>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-md>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-md>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-md>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n@media all and (max-width: 991.99px) {\n    /* under LG  */\ntable.b-table.b-table-stacked-lg {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-lg,\n    table.b-table.b-table-stacked-lg>tbody,\n    table.b-table.b-table-stacked-lg>tbody>tr,\n    table.b-table.b-table-stacked-lg>tbody>tr>td,\n    table.b-table.b-table-stacked-lg>tbody>tr>th,\n    table.b-table.b-table-stacked-lg>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-lg>thead,\n    table.b-table.b-table-stacked-lg>tfoot,\n    table.b-table.b-table-stacked-lg>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-lg>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-lg>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-lg>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-lg>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n@media all and (max-width: 1199.99px) {\n    /* under XL  */\ntable.b-table.b-table-stacked-xl {\n        width: 100%;\n}\ntable.b-table.b-table-stacked-xl,\n    table.b-table.b-table-stacked-xl>tbody,\n    table.b-table.b-table-stacked-xl>tbody>tr,\n    table.b-table.b-table-stacked-xl>tbody>tr>td,\n    table.b-table.b-table-stacked-xl>tbody>tr>th,\n    table.b-table.b-table-stacked-xl>caption {\n        display: block;\n}\n    /* hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked-xl>thead,\n    table.b-table.b-table-stacked-xl>tfoot,\n    table.b-table.b-table-stacked-xl>tbody>tr.b-table-top-row,\n    table.b-table.b-table-stacked-xl>tbody>tr.b-table-bottom-row {\n        display: none;\n}\n    /* inter-row top border */\ntable.b-table.b-table-stacked-xl>tbody>tr>:first-child {\n        border-top-width: .4rem;\n}\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked-xl>tbody>tr>[data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: .25rem 1rem;\n}\n    /* generate row cell \"heading\" */\ntable.b-table.b-table-stacked-xl>tbody>tr>[data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n}\n}\n\n/* Details row styling */\ntable.b-table>tbody>tr.b-table-details>td {\n    border-top: none;\n}\n", ""]);
+exports.push([module.i, "\n/*\n * Temporary fix, as BS V4.beta.2 mistakenly removed progress-bar transition.\n * This should be able to be removed once V4.beta.3 is released.\n * And this full component can be moved into the progress.js file\n */\n.progress-bar {\n    transition: width .6s ease;\n}\n", ""]);
 
 // exports
 
@@ -29030,7 +29030,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "\n/*\n * Temporary fix, as BS V4.beta.2 mistakenly removed progress-bar transition.\n * This should be able to be removed once V4.beta.3 is released.\n * And this full component can be moved into the progress.js file\n */\n.progress-bar {\n    transition: width .6s ease;\n}\n", ""]);
+exports.push([module.i, "\n/*\n  This CSS can be removed once Bootstrap V4.beta.3 is released\n  https://github.com/twbs/bootstrap/pull/24510\n  Once BSV4.beta.3 is released, the script section can be moved into the modal.js file\n  V4.beta.3 will be changing modal margin to rem units\n*/\n.modal-dialog-centered {\n    display: flex;\n    align-items: center;\n    /* min-height: calc(100% - (1rem * 2)); */\n    min-height: calc(100% - (10px * 2));\n}\n.modal-dialog-centered .modal-content {\n    width: 100%;\n}\n@media (min-width: 576px) {\n.modal-dialog-centered {\n        /* min-height: calc(100% - (1.75rem * 2)); */\n        min-height: calc(100% - (30px * 2));\n}\n}\n", ""]);
 
 // exports
 
@@ -30095,7 +30095,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\node_modules\\bootstrap-vue\\es\\components\\form-file\\form-file.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\node_modules\\bootstrap-vue\\es\\components\\form-file\\form-file.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -30105,9 +30105,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-87fef102", Component.options)
+    hotAPI.createRecord("data-v-739a7198", Component.options)
   } else {
-    hotAPI.reload("data-v-87fef102", Component.options)
+    hotAPI.reload("data-v-739a7198", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -30124,7 +30124,7 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(208)
+  __webpack_require__(206)
 }
 var Component = __webpack_require__(6)(
   /* script */
@@ -30138,7 +30138,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\node_modules\\bootstrap-vue\\es\\components\\form-input\\form-input.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\node_modules\\bootstrap-vue\\es\\components\\form-input\\form-input.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -30148,9 +30148,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3c5e55da", Component.options)
+    hotAPI.createRecord("data-v-1a989cec", Component.options)
   } else {
-    hotAPI.reload("data-v-3c5e55da", Component.options)
+    hotAPI.reload("data-v-1a989cec", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -30167,7 +30167,7 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(206)
+  __webpack_require__(211)
 }
 var Component = __webpack_require__(6)(
   /* script */
@@ -30181,7 +30181,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\node_modules\\bootstrap-vue\\es\\components\\modal\\modal.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\node_modules\\bootstrap-vue\\es\\components\\modal\\modal.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -30191,9 +30191,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1a7d07e2", Component.options)
+    hotAPI.createRecord("data-v-ad20e1b0", Component.options)
   } else {
-    hotAPI.reload("data-v-1a7d07e2", Component.options)
+    hotAPI.reload("data-v-ad20e1b0", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -30210,7 +30210,7 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(211)
+  __webpack_require__(209)
 }
 var Component = __webpack_require__(6)(
   /* script */
@@ -30224,7 +30224,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\node_modules\\bootstrap-vue\\es\\components\\progress\\progress.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\node_modules\\bootstrap-vue\\es\\components\\progress\\progress.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -30234,9 +30234,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-c16f6fda", Component.options)
+    hotAPI.createRecord("data-v-5c57e46c", Component.options)
   } else {
-    hotAPI.reload("data-v-c16f6fda", Component.options)
+    hotAPI.reload("data-v-5c57e46c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -30253,7 +30253,7 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(209)
+  __webpack_require__(208)
 }
 var Component = __webpack_require__(6)(
   /* script */
@@ -30267,7 +30267,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\node_modules\\bootstrap-vue\\es\\components\\table\\table.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\node_modules\\bootstrap-vue\\es\\components\\table\\table.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -30277,9 +30277,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-7b205091", Component.options)
+    hotAPI.createRecord("data-v-31ce63aa", Component.options)
   } else {
-    hotAPI.reload("data-v-7b205091", Component.options)
+    hotAPI.reload("data-v-31ce63aa", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -30306,7 +30306,7 @@ var Component = __webpack_require__(6)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\xampp\\htdocs\\andrewward2001\\resources\\js\\components\\MyFooter.vue"
+Component.options.__file = "D:\\xampp\\htdocs\\website\\resources\\js\\components\\MyFooter.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MyFooter.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -30317,9 +30317,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4e40e1ad", Component.options)
+    hotAPI.createRecord("data-v-43eabb46", Component.options)
   } else {
-    hotAPI.reload("data-v-4e40e1ad", Component.options)
+    hotAPI.reload("data-v-43eabb46", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -30518,7 +30518,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-28dd6325", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-27c41d84", module.exports)
   }
 }
 
@@ -30537,7 +30537,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-4e40e1ad", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-43eabb46", module.exports)
   }
 }
 
@@ -30552,7 +30552,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-7806d34b", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-a040c3dc", module.exports)
   }
 }
 
@@ -30670,7 +30670,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _vm._v(" "), _c('b-jumbotron', {
     attrs: {
-      "header": "Download Vatron 0.3.1",
+      "header": "Download Vatron 0.3.2",
       "fluid": ""
     }
   }, [_c('p', {
@@ -30683,19 +30683,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('a', {
     staticClass: "card-link",
     attrs: {
-      "href": "https://github.com/vatron/vatron/releases/download/v0.3.1/vatron-Setup-0.3.1.exe",
+      "href": "https://github.com/vatron/vatron/releases/download/v0.3.2/vatron-Setup-0.3.2.exe",
       "target": "_blank"
     }
   }, [_vm._v("Squirrel Installer (~76 MB)")]), _c('br'), _vm._v(" "), _c('a', {
     staticClass: "card-link",
     attrs: {
-      "href": "https://github.com/vatron/vatron/releases/download/v0.3.1/vatron-web-setup-0.3.1.exe",
+      "href": "https://github.com/vatron/vatron/releases/download/v0.3.2/vatron-web-setup-0.3.2.exe",
       "target": "_blank"
     }
   }, [_vm._v("Web Installer (~951+ KB)")]), _vm._v(" "), _c('a', {
     staticClass: "card-link",
     attrs: {
-      "href": "https://github.com/vatron/vatron/releases/download/v0.3.1/VatronPortable.0.3.1.exe",
+      "href": "https://github.com/vatron/vatron/releases/download/v0.3.2/VatronPortable.0.3.2.exe",
       "target": "_blank"
     }
   }, [_vm._v("Portable .exe (~36 MB)")])])], 1), _vm._v(" "), _c('b-col', [_c('b-card', {
@@ -30705,7 +30705,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('a', {
     staticClass: "card-link",
     attrs: {
-      "href": "https://github.com/vatron/vatron/releases/download/v0.3.1/Vatron.0.3.1.dmg",
+      "href": "https://github.com/vatron/vatron/releases/download/v0.3.2/Vatron.0.3.2.dmg",
       "target": "_blank"
     }
   }, [_vm._v("DMG (~52 MB)")])])], 1)], 1), _vm._v(" "), _c('p', [_c('a', {
@@ -30717,6 +30717,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "href": "https://github.com/vatron/vatron/compare/v0.3.0...v0.3.1"
     }
   }, [_vm._v("view the 0.3.1 changelog")])]), _vm._v(" "), _c('p', [_c('a', {
+    attrs: {
+      "href": "https://github.com/vatron/vatron/compare/v0.3.1...v0.3.2"
+    }
+  }, [_vm._v("view the 0.3.2 changelog")])]), _vm._v(" "), _c('p', [_c('a', {
     attrs: {
       "href": "https://github.com/andrewward2001/vatron/releases/tag/v0.3.1"
     }
@@ -30773,7 +30777,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-c6ea5764", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-dc3f7fb2", module.exports)
   }
 }
 
@@ -30788,13 +30792,13 @@ var content = __webpack_require__(185);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("7dae6d70", content, false);
+var update = __webpack_require__(8)("72695890", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1a7d07e2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./modal.vue", function() {
-     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1a7d07e2\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./modal.vue");
+   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1a989cec\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-input.vue", function() {
+     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1a989cec\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-input.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -30814,13 +30818,13 @@ var content = __webpack_require__(186);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("d39240b6", content, false);
+var update = __webpack_require__(8)("9d10f5f4", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-28dd6325\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-28dd6325\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue");
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-27c41d84\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-27c41d84\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -30840,13 +30844,13 @@ var content = __webpack_require__(187);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("8f3bf0ac", content, false);
+var update = __webpack_require__(8)("1c56a33b", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3c5e55da\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-input.vue", function() {
-     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3c5e55da\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-input.vue");
+   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-31ce63aa\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./table.vue", function() {
+     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-31ce63aa\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./table.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -30866,13 +30870,13 @@ var content = __webpack_require__(188);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("09ab9fcc", content, false);
+var update = __webpack_require__(8)("fce686e2", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-7b205091\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./table.vue", function() {
-     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-7b205091\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./table.vue");
+   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5c57e46c\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./progress.vue", function() {
+     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5c57e46c\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./progress.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -30892,13 +30896,13 @@ var content = __webpack_require__(189);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("47f7d572", content, false);
+var update = __webpack_require__(8)("5ad992c4", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-87fef102\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-file.vue", function() {
-     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-87fef102\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-file.vue");
+   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-739a7198\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-file.vue", function() {
+     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-739a7198\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./form-file.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -30918,13 +30922,13 @@ var content = __webpack_require__(190);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("31cc3a20", content, false);
+var update = __webpack_require__(8)("43544cfa", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-c16f6fda\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./progress.vue", function() {
-     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-c16f6fda\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./progress.vue");
+   module.hot.accept("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-ad20e1b0\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./modal.vue", function() {
+     var newContent = require("!!../../../../css-loader/index.js!../../../../vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-ad20e1b0\",\"scoped\":false,\"hasInlineConfig\":false}!../../../../vue-loader/lib/selector.js?type=styles&index=0!./modal.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
