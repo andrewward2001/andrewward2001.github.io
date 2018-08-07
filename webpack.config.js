@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
     entry: './resources/js/script.js',
@@ -8,7 +9,7 @@ module.exports = {
         filename: 'build.js'
     },
     module: {
-        rules: [{
+    rules: [{
             test: /\.css$/,
             use: [ 'style-loader', 'css-loader' ]
         },
@@ -41,6 +42,7 @@ module.exports = {
         'process.env': {
           NODE_ENV: '"development"'
         }
-      })
+      }),
+      new VueLoaderPlugin()
     ]
 }

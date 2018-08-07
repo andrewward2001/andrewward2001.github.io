@@ -1,145 +1,151 @@
 <template>
-  <div>
-    <b-jumbotron header="Solutions for the Future." lead="Tomorrow is approaching. Be ready for it." bg-variant="dark" text-variant="light" fluid></b-jumbotron>
-    <b-jumbotron header="About Me"
-                 lead="My name is Andrew. I'm a 16 year old self-taught web developer. I specialize in CSS and PHP, and I'm the main web developer at Virtual United Social Club, Inc (see below). Back in June, I finished Advanced Placement Computer Science at my high school in the greater Boston area. I am currently enrolled in Honors Applied Computer Science, which focuses on applying skills learned in APCS to real-world problem solving in groups."
-                 fluid>
-      <b-row>
-        <b-col md="1" offset-md="5" class="d-flex" style="justify-content: center">
-          <a href="//github.com/andrewward2001">
-            <img src="resources/img/github.png" alt="GitHub" height="50px" width="50px" />
-          </a>
-        </b-col>
-        <b-col md="1" class="d-flex" style="justify-content: center">
-          <a href="//gitlab.com/andrewward2001">
-            <img src="resources/img/gitlab.png" alt="gitlab" height="50px" width="50px" />
-          </a>
-        </b-col>
-      </b-row>
-    </b-jumbotron>
-    <b-jumbotron header="Portfolio" fluid>
-      <b-card title="Virtual United Social Club, Inc." sub-title="June, 2016 - January, 2018">
-        <p>I started working at Virtual United in June, 2016 as a front-end web developer. I was later promoted to Web Development Director and oversaw the creation of brand-new online systems, replacing an aging code base.</p>
-        <a href="https://virtualua.org/"
-           class="card-link">Visit</a>
-      </b-card>
-    </b-jumbotron>
-    <b-jumbotron header="Projects" fluid>
-      <b-card title="Vatron" sub-title="Primary Language: Node.js (Electron, ES6)">
-        <p>Using the latest technologies from ES6, Vatron is a brand new lightweight and fast radar client for VATSIM based on GitHub's Electron.</p>
-        <a href="#/vatron"
-           class="card-link">Website</a>
-        <a href="https://github.com/andrewward2001/vatron"
-           class="card-link">GitHub Repository</a>
-      </b-card>
-      <b-card title="SQLEconomy" sub-title="Primary Language: Java">
-        <p>A Bukkit economy plugin that stores data in an SQL database.</p>
-        <a href="https://dev.bukkit.org/projects/sqleconomee"
-           class="card-link">More</a>
-        <a href="https://gitlab.com/andrewward2001/SQLEconomy"
-           class="card-link">GitLab Repository</a>
-      </b-card>
-      <b-card title="Cards" sub-title="Primary Languages: CSS, jQuery">
-        <p>Currently shelved, Cards is a CSS and JS framework for creating Material Design web pages.</p>
-        <a href="https://github.com/andrewward2001/Cards"
-           class="card-link">GitHub Repository</a>
-      </b-card>
-      <b-card title="Wayland Student Planner" sub-title="Primary Language: Node.js (Electron, ES6)">
-        <p>A desktop application written in HTML, CSS, and JS using Electron. Provides a utility for students to keep track of their day.</p>
-        <a href="https://github.com/andrewward2001/wayland-student-planner"
-           class="card-link">GitHub Repository</a>
-      </b-card>
-    </b-jumbotron>
-    <b-jumbotron header="My Skills" fluid>
-      <h5>CSS, LESS, SCSS</h5>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+  <div class="bg">
+    <hero></hero>
+    <a id="about"></a>
+    <div class="row" id="main-content">
+      <div class="side-nav col col-md-3 col-lg-2 mt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        </ul>
       </div>
-      <h5>ES6, Node.js, jQuery</h5>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+      <div class="content col-sm-12 col-md-9 col-lg-10 ml-sm-auto">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img-top" style="height: 100px; width: 100%; display: block; background-image: linear-gradient(45deg, #41f4d0 25%, #28a2ff);"></div>
+              <div class="card-body text-center">
+                <img class="profile-picture" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png" alt="">
+                <h5 class="card-title mt-3">Andrew Ward</h5>
+                <div class="d-flex justify-content-center">
+                  <a href="//github.com/andrewward2001" class="mr-3"><img src="resources/img/github.png" alt="GitHub" height="30px" width="30px"></a>
+                  <a href="//gitlab.com/andrewward2001"><img src="resources/img/gitlab.png" alt="GitLab" height="30px" width="30px"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <card title="About me">
+              <p>
+                My name is Andrew. I'm a 17 year old self-taught web developer.
+                I specialize in CSS and JS, and I'm getting the hang of Vue and Flutter.
+                I've got 3 years of Computer Science classes from my greater Boston area high school under my belt.
+              </p>
+            </card>
+          </div>
+        </div>
+        <a id="portfolio"></a>
+        <h3 class="display-3 mb-4">portfolio</h3>
+        <div class="row px-3">
+          <card title="Virtual United Social Club, Inc." subtitle="June, 2016 - Junuary, 2018">
+            <p>
+              I started working at Virtual United in June, 2016 as a front-end web developer.
+              I was later promoted to Web Development Director and oversaw the creation of brand-new online systems, replacing an aging code base.
+            </p>
+          </card>
+        </div>
+        <a id="projects"></a>
+        <h3 class="display-3 mb-4">projects</h3>
+        <div class="row">
+          <div class="col-md">
+            <card title="WayTab" subtitle="Languages used: HTML, CSS, jQuery">
+              <p>
+                WayTab is a new tab page for Chrome, oriented for students.
+                WayTab makes it easier for students to keep track of their day and assignments.
+              </p>
+              <a href="//waytab.org" class="">Website</a>
+              <a href="//github.com/waytab/" class="">GitHub</a>
+            </card>
+            <card title="SQLEconomy" subtitle="Languages used: Java">
+              <p>
+                A plugin for Minecraft servers that stores data in an SQL Database.
+              </p>
+              <a href="//dev.bukkit.org/projects/sqleconomee" class="">More</a>
+              <a href="//gitlab.com/andrewward2001/SQLEconomy" class="">GitLab</a>
+            </card>
+          </div>
+          <div class="col-md">
+            <card title="Vatron" subtitle="Languages used: Node.js (Electron, ES6), CSS, jQuery">
+              <p>
+                Using the latest technologies from ES6, Vatron is a brand new lightweight and fast radar client for VATSIM based on GitHub's Electron.
+              </p>
+              <a href="/vatron" class="">Website</a>
+              <a href="//github.com/andrewward2001/vatron" class="">GitHub</a>
+            </card>
+            <card title="Cards" subtitle="Languages used: CSS, jQuery" overline="shelved">
+              <p>
+                Cards is a CSS and JS framework for creating Material Design web pages.
+              </p>
+              <a href="//github.com/andrewward2001/Cards" class="">GitHub</a>
+            </card>
+          </div>
+        </div>
       </div>
-      <h5>Vue.js</h5>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 75%"></div>
-      </div>
-      <h5>PHP</h5>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 80%"></div>
-      </div>
-      <h5>Java</h5>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 85%"></div>
-      </div>
-    </b-jumbotron>
+    </div>
   </div>
 </template>
-
 <script>
-  export default {
-    data() {
-      return {
-        portfolio: [{
-          title: 'Virtual United Social Club, Inc.',
-          description: 'I started working at Virtual United in June, 2016 as a front-end web developer, and I\'m currently the Web Development Manager.',
-          links: [{
-            title: 'Visit',
-            a: 'https://virtualua.org/'
-          }]
-        }],
-        projects: [{
-          title: 'Vatron',
-          priLang: 'Node.js (ES6)',
-          languages: 'HTML 5, CSS 3, jQuery',
-          description: 'Using the latest technologies from ES6, Vatron is a brand new lightweight and fast radar client for VATSIM based on GitHub\'s Electron.',
-          links: [{
-            title: 'Website',
-            a: '#/vatron'
-          }, {
-            title: 'GitHub Repository',
-            a: 'https://github.com/andrewward2001/vatron'
-          }]
-        }, {
-          title: 'SQLEconomy',
-          priLang: 'Java',
-          description: 'A Bukkit economy plugin that stores data in an SQL database',
-          links: [{
-            title: 'More',
-            a: 'https://dev.bukkit.org/projects/sqleconomee'
-          }, {
-            title: 'GitLab Repository',
-            a: 'https://gitlab.com/andrewward2001/SQLEconomy'
-          }]
-        }, {
-          title: 'Cards',
-          priLang: 'CSS',
-          languages: 'HTML, jQuery',
-          description: 'Currently shelved, Cards is a CSS and JS framework for creating Material Design web pages.',
-          links: [{
-            title: 'GitHub Repository',
-            a: 'https://github.com/andrewward2001/Cards'
-          }]
-        }, {
-          title: 'Wayland Student Planner',
-          priLang: 'Node.js (ES6)',
-          languages: 'HTML5, CSS 3, jQuery',
-          description: 'A desktop application written in HTML, CSS, and JS using Electron. Provides a utility for students to keep track of their day.',
-          links: [{
-            title: 'GitHub Repository',
-            a: 'https://github.com/andrewward2001/wayland-student-planner'
-          }]
-        }]
-      }
-    }
+export default {
+  data() {
+    return {}
   }
+}
 </script>
-
 <style>
-  .jumbotron {
-    margin: 0;
-  }
+.bg {
+  background: fixed linear-gradient(25deg, #28a2ff, #41f4d0 75%);
+  width: 100%;
+}
 
-  .card {
-    margin-bottom: 1rem;
-  }
+#main-content {
+  z-index: 100;
+}
+
+.bg>.row {
+  margin: 0;
+}
+
+.content {
+  padding: 1rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0,0,0,.1);
+  box-shadow: 0px 1px 35px 0px rgba(0,0,0,.1);
+}
+
+.side-nav {
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.75);
+}
+.nav-link:hover {
+  transition: color .35s;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-item:hover {
+  transition: background-color .35s;
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 2px;
+}
+
+.profile-picture {
+  display: block;
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 100px;
+  height: auto;
+  margin: -70px auto 0;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+
 </style>
