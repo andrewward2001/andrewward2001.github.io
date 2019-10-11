@@ -6,6 +6,7 @@
         <ul class="nav flex-column">
           <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
           <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
           <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
         </ul>
       </div>
@@ -17,7 +18,6 @@
                 <div class="card">
                   <div class="card-img-top" style="height: 100px; width: 100%; display: block; background-image: linear-gradient(45deg, #41f4d0 25%, #28a2ff);"></div>
                   <div class="card-body text-center">
-                    <img class="profile-picture" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png" alt="">
                     <h5 class="card-title mt-3">Andrew Ward</h5>
                     <div class="d-flex justify-content-center">
                       <a href="//github.com/andrewward2001" class="mr-3"><img src="resources/img/github.png" alt="GitHub" height="30px" width="30px"></a>
@@ -29,9 +29,10 @@
               <div class="col-lg-9">
                 <card title="About me">
                   <p>
-                    My name is Andrew. I'm a 17 year old self-taught web developer.
+                    My name is Andrew. I'm a {{getAge}} year old self-taught web developer.
                     I specialize in CSS and JS, and I'm getting the hang of Vue and React.
                     I have 3 years of Computer Science classes from my greater Boston area high school.
+                    I am currently attending Embry-Riddle Aeronautical University as an Aeronautical Science major.
                   </p>
                 </card>
               </div>
@@ -50,6 +51,12 @@
                 I started working at Virtual United in June, 2016 as a front-end web developer.
                 I was later promoted to Web Development Director and oversaw the creation of brand-new online systems, replacing an aging code base.
               </p>
+            </card>
+            <a id="education"></a>
+            <h3 class="display-3 mb-4">education</h3>
+            <card title="Embry-Riddle Autonautical University" overline="Aeronautical Science · August 2019 - May 2023" subtitle="Daytona Beach, FL">
+            </card>
+            <card title="Wayland High School" overline="September 2014 - May 2019" subtitle="Wayland, MA">
             </card>
             <a id="projects"></a>
             <h3 class="display-3 mb-4">projects</h3>
@@ -98,6 +105,13 @@
 export default {
   data() {
     return {}
+  },
+  computed: {
+    getAge() {
+      let ageMillisec = Date.now() - new Date('2001-05-01')
+      let ageAsDate = new Date(ageMillisec)
+      return Math.abs(ageAsDate.getUTCFullYear() - 1970)
+    }
   }
 }
 </script>

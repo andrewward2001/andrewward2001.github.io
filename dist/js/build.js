@@ -5650,10 +5650,24 @@ let next = ['impressions', 'standing out'];
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data() {
     return {};
+  },
+  computed: {
+    getAge() {
+      let ageMillisec = Date.now() - new Date('2001-05-01');
+      let ageAsDate = new Date(ageMillisec);
+      return Math.abs(ageAsDate.getUTCFullYear() - 1970);
+    }
   }
 });
 
@@ -7994,7 +8008,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__node_modules_
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -8011,7 +8025,7 @@ if (false) {
     })
   }
 }
-component.options.__file = "resources\\js\\components\\Card.vue"
+component.options.__file = "resources/js/components/Card.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -8045,7 +8059,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__node_modules_
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -8062,7 +8076,7 @@ if (false) {
     })
   }
 }
-component.options.__file = "resources\\js\\components\\Hero.vue"
+component.options.__file = "resources/js/components/Hero.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -8096,7 +8110,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__node_modules_
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -8113,7 +8127,7 @@ if (false) {
     })
   }
 }
-component.options.__file = "resources\\js\\components\\Home.vue"
+component.options.__file = "resources/js/components/Home.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -8142,7 +8156,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__node_modules_
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -8159,7 +8173,7 @@ if (false) {
     })
   }
 }
-component.options.__file = "resources\\js\\components\\Vatron.vue"
+component.options.__file = "resources/js/components/Vatron.vue"
 /* unused harmony default export */ var _unused_webpack_default_export = (component.exports);
 
 /***/ }),
@@ -26919,7 +26933,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "\n.card {\r\n  border: none;\r\n  -webkit-box-shadow: 0px 1px 35px 0px rgba(240,240,240,1);\r\n  box-shadow: 0px 1px 35px 0px rgba(240,240,240,1);\n}\n.row .card {\r\n  margin-bottom: 2rem;\n}\n.overline {\r\n  text-transform: uppercase;\r\n  letter-spacing: 1px;\r\n  font-size: .75rem;\r\n  font-weight: 500;\r\n  color: #868e96;\r\n  margin-bottom: .5rem;\n}\n.card-title {\r\n  font-family: 'Poppins', 'sans-serif';\r\n  font-weight: 600;\n}\r\n", ""]);
+exports.push([module.i, "\n.card {\n  border: none;\n  -webkit-box-shadow: 0px 1px 35px 0px rgba(240,240,240,1);\n  box-shadow: 0px 1px 35px 0px rgba(240,240,240,1);\n}\n.row .card {\n  margin-bottom: 2rem;\n}\n.overline {\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  font-size: .75rem;\n  font-weight: 500;\n  color: #868e96;\n  margin-bottom: .5rem;\n}\n.card-title {\n  font-family: 'Poppins', 'sans-serif';\n  font-weight: 600;\n}\n", ""]);
 
 // exports
 
@@ -26933,7 +26947,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "\n.hero {\r\n  height: 100vh;\r\n  width: 100%;\n}\n.hero > div {\r\n  color: white;\r\n  padding-top: calc(50vh - 100px);\n}\n.hero svg {\r\n  position: fixed;\r\n  bottom: 1rem;\n}\r\n", ""]);
+exports.push([module.i, "\n.hero {\n  height: 100vh;\n  width: 100%;\n}\n.hero > div {\n  color: white;\n  padding-top: calc(50vh - 100px);\n}\n.hero svg {\n  position: fixed;\n  bottom: 1rem;\n}\n", ""]);
 
 // exports
 
@@ -28116,7 +28130,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__vue_loader_li
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -28128,7 +28142,7 @@ if (false) {
     
   }
 }
-component.options.__file = "node_modules\\bootstrap-vue\\es\\components\\form-file\\form-file.vue"
+component.options.__file = "node_modules/bootstrap-vue/es/components/form-file/form-file.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -28161,7 +28175,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__vue_loader_li
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -28173,7 +28187,7 @@ if (false) {
     
   }
 }
-component.options.__file = "node_modules\\bootstrap-vue\\es\\components\\form-input\\form-input.vue"
+component.options.__file = "node_modules/bootstrap-vue/es/components/form-input/form-input.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -28206,7 +28220,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__vue_loader_li
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -28218,7 +28232,7 @@ if (false) {
     
   }
 }
-component.options.__file = "node_modules\\bootstrap-vue\\es\\components\\modal\\modal.vue"
+component.options.__file = "node_modules/bootstrap-vue/es/components/modal/modal.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -28251,7 +28265,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__vue_loader_li
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -28263,7 +28277,7 @@ if (false) {
     
   }
 }
-component.options.__file = "node_modules\\bootstrap-vue\\es\\components\\progress\\progress.vue"
+component.options.__file = "node_modules/bootstrap-vue/es/components/progress/progress.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -28296,7 +28310,7 @@ var component = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__vue_loader_li
 
 /* hot reload */
 if (false) {
-  var api = require("D:\\xampp\\htdocs\\website\\node_modules\\vue-hot-reload-api\\dist\\index.js")
+  var api = require("/Users/andrewward/Desktop/andrewward2001.github.io/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -28308,7 +28322,7 @@ if (false) {
     
   }
 }
-component.options.__file = "node_modules\\bootstrap-vue\\es\\components\\table\\table.vue"
+component.options.__file = "node_modules/bootstrap-vue/es/components/table/table.vue"
 /* harmony default export */ __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
@@ -28581,7 +28595,9 @@ var render = function() {
                       _c("card", { attrs: { title: "About me" } }, [
                         _c("p", [
                           _vm._v(
-                            "\n                  My name is Andrew. I'm a 17 year old self-taught web developer.\n                  I specialize in CSS and JS, and I'm getting the hang of Vue and React.\n                  I have 3 years of Computer Science classes from my greater Boston area high school.\n                "
+                            "\n                  My name is Andrew. I'm a " +
+                              _vm._s(_vm.getAge) +
+                              " year old self-taught web developer.\n                  I specialize in CSS and JS, and I'm getting the hang of Vue and React.\n                  I have 3 years of Computer Science classes from my greater Boston area high school.\n                  I am currently attending Embry-Riddle Aeronautical University as an Aeronautical Science major.\n                "
                           )
                         ])
                       ])
@@ -28631,6 +28647,28 @@ var render = function() {
                     ])
                   ]
                 ),
+                _vm._v(" "),
+                _c("a", { attrs: { id: "education" } }),
+                _vm._v(" "),
+                _c("h3", { staticClass: "display-3 mb-4" }, [
+                  _vm._v("education")
+                ]),
+                _vm._v(" "),
+                _c("card", {
+                  attrs: {
+                    title: "Embry-Riddle Autonautical University",
+                    overline: "Aeronautical Science · August 2019 - May 2023",
+                    subtitle: "Daytona Beach, FL"
+                  }
+                }),
+                _vm._v(" "),
+                _c("card", {
+                  attrs: {
+                    title: "Wayland High School",
+                    overline: "September 2014 - May 2019",
+                    subtitle: "Wayland, MA"
+                  }
+                }),
                 _vm._v(" "),
                 _c("a", { attrs: { id: "projects" } }),
                 _vm._v(" "),
@@ -28807,6 +28845,12 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", { staticClass: "nav-item" }, [
+          _c("a", { staticClass: "nav-link", attrs: { href: "#education" } }, [
+            _vm._v("Education")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
           _c("a", { staticClass: "nav-link", attrs: { href: "#projects" } }, [
             _vm._v("Projects")
           ])
@@ -28831,15 +28875,6 @@ var staticRenderFns = [
         }),
         _vm._v(" "),
         _c("div", { staticClass: "card-body text-center" }, [
-          _c("img", {
-            staticClass: "profile-picture",
-            attrs: {
-              src:
-                "http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png",
-              alt: ""
-            }
-          }),
-          _vm._v(" "),
           _c("h5", { staticClass: "card-title mt-3" }, [_vm._v("Andrew Ward")]),
           _vm._v(" "),
           _c("div", { staticClass: "d-flex justify-content-center" }, [
